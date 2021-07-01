@@ -31,6 +31,7 @@ async function getDeck(){ //el fetch es asíncrono
     idDeckp.textContent = datos.deck_id;
     remainingCardsp.textContent = datos.remaining;
     idDeck = datos.deck_id;
+    sectionCards.innerHTML="";
 }
 
 buttonDraw.addEventListener("click", getCard);
